@@ -10857,3 +10857,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float:  right;
+}
