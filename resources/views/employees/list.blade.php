@@ -87,9 +87,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="card-footer py-4">
+                                <div class="card-footer">
                                     <nav class="d-flex justify-content-end" aria-label="...">
-                                        {{ $employees->links() }}
+                                        {{ $employees->links('pagination::bootstrap-4') }}
                                     </nav>
                                 </div>
                             </div>
